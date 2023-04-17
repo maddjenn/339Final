@@ -96,57 +96,40 @@ footer {
   text-align: center;
 }
 
-.game-grid {
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-auto-rows: minmax(150px, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 }
 
-.game-cell {
+.grid-item {
   position: relative;
   overflow: hidden;
-  background-color: #ddd;
 }
 
-.game-cell:hover::before {
-  content: attr(data-title);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: opacity 0.3s ease-in-out;
-  opacity: 1;
-}
-
-.game-cell:hover::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.game-cell:hover {
-  cursor: pointer;
-}
-
-.game-cell img {
+.grid-item img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.grid-item .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  transform: translateY(100%);
   transition: transform 0.3s ease-in-out;
 }
 
-.game-cell:hover img {
-  transform: scale(1.1);
+.grid-item:hover .caption {
+  transform: translateY(0%);
 }
 
 
