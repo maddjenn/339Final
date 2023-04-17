@@ -133,7 +133,22 @@ footer {
   transform: translateY(0%);
 }
 
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
+/* Apply the animation to the heart path */
+.heart path {
+  animation: heart 1s ease-in-out infinite;
+}
 
 
 
