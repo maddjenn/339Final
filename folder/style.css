@@ -1,11 +1,26 @@
+body {
+  background-color: #F0F8FF;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #ccc;
+}
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav li {
-  display: inline-block;
+  margin-right: 20px;
 }
 
 nav a {
@@ -18,4 +33,5 @@ nav a {
 nav a.active {
   font-weight: bold;
   color: #000;
+  background-color: #ccc;
 }
