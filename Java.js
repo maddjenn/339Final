@@ -12,3 +12,17 @@ window.onload = function() {
     }
   }
 };
+
+const welcomeText = document.getElementById("welcome-text");
+const text = "Welcome to my page";
+let index = 0;
+
+function animateText() {
+  if (index < text.length) {
+    welcomeText.innerHTML += text.charAt(index);
+    index++;
+    setTimeout(animateText, 100);
+  }
+}
+
+animateText();
