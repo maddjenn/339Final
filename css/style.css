@@ -1,5 +1,26 @@
 body {
   background-color: #F0F8FF;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+}
+
+header h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
 }
 
 nav {
@@ -35,3 +56,20 @@ nav a.active {
   color: #000;
   background-color: #ccc;
 }
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
