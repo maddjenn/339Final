@@ -181,7 +181,12 @@ footer {
   text-transform: uppercase;
 }
 
-
+.polaroid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
 
 
 
