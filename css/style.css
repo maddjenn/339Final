@@ -175,7 +175,7 @@ footer {
   left: 0;
   width: 100%;
   background-color: #fff;
-  color: #000000;
+  color: black;
   text-align: center;
   padding: 10px;
   font-weight: bold;
@@ -297,6 +297,26 @@ footer {
   text-align: justify;
 }
 
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border: 1px solid lightblue;
+  padding: 10px;
+}
 
+.interest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 1px solid lightblue;
+}
+
+.interest img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
 
 
