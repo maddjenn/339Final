@@ -230,6 +230,174 @@ footer {
   line-height: 1.5;
 }
 
+.banner {
+  background-color: #1C3764;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.subtext {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.location {
+  font-size: 18px;
+  margin-top: 0;
+}
+Feel free to adjust the font sizes or padding as needed to fit your design.
+
+
+
+
+meimadeko@gmail.com
+how should i include my html5reset style sheet based on what I have?
+You can include the html5reset style sheet in your HTML code by adding the following line within the head section:
+
+html
+Copy code
+<link rel="stylesheet" type="text/css" href="path/to/html5reset.css">
+Make sure to replace "path/to/html5reset.css" with the actual file path to your html5reset stylesheet. You can either download the html5reset CSS file and store it locally in your project folder, or use a CDN link to reference it from an external source.
+
+
+
+
+meimadeko@gmail.com
+what should my actual file include code wise
+To include the html5reset stylesheet in your HTML file, you can add the following code to the head section of your HTML file:
+
+php
+Copy code
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+  <title>Welcome</title>
+  <script src="Java/Java.js"></script>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+This assumes that you have the html5reset.css file in a folder called css within your project folder. Make sure to adjust the file path accordingly if your file structure is different.
+
+
+
+
+meimadeko@gmail.com
+no how should i make my html5reset file
+Here is an example of how you can create an HTML5 Reset stylesheet file:
+
+Open a text editor (e.g. Notepad, Sublime Text, Visual Studio Code) and create a new file.
+Save the file with a name like html5reset.css and make sure to choose "All Files" in the "Save as type" dropdown.
+Copy and paste the following code into the file:
+css
+Copy code
+/* HTML5 Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+Save the file and include it in your HTML document by adding the following line in the head section:
+bash
+Copy code
+<link rel="stylesheet" type="text/css" href="path/to/html5reset.css">
+Make sure to replace "path/to/" with the actual path to your html5reset.css file.
+
+
+
+
+meimadeko@gmail.com
+going back to the MyLife.html, can you make the Madeleine Jennings and then the text under have to different boxes behind it with a light blue background
+Sure! Here's an example of how you could achieve that:
+
+php
+Copy code
+<div class="name-container">
+  <div class="name-box">
+    <h1>Madeleine Jennings</h1>
+    <h2>UX + BCN</h2>
+  </div>
+  <div class="location-box">
+    <h3>@ University of Michigan</h3>
+  </div>
+</div>
+And here is the corresponding CSS:
+
+css
+Copy code
 .name-container {
   display: flex;
   justify-content: center;
@@ -263,3 +431,8 @@ footer {
   font-size: 18px;
   margin: 0;
 }
+
+
+
+
+
