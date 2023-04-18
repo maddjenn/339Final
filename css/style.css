@@ -319,4 +319,65 @@ footer {
   object-fit: contain;
 }
 
+/* Contact Me section */
+.contact-me {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
 
+.contact-me h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.contact-me input[type="text"], 
+.contact-me input[type="email"], 
+.contact-me textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact-me input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-me input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Find Me Here section */
+.find-me-here {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.find-me-here h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.find-me-here a {
+  margin-right: 20px;
+}
+
+.find-me-here img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
