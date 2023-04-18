@@ -308,7 +308,7 @@ footer {
 .interest {
   width: calc(100% / 3 - 40px);
   margin: 20px;
-  border: 10px solid blue;
+  border: 8px solid lightblue;
   box-sizing: border-box;
   overflow: hidden;
 }
