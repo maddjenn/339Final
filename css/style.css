@@ -357,30 +357,6 @@ footer {
   background-color: #45a049;
 }
 
-/* Find Me Here section */
-.find-me-here {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.find-me-here h3 {
-  margin-top: 0;
-  font-size: 24px;
-}
-
-.find-me-here a {
-  margin-right: 20px;
-}
-
-.find-me-here img {
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
-}
 
 .social-icons {
   height: 50px;
