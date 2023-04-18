@@ -381,3 +381,9 @@ footer {
   text-align: center;
 }
 
+.Paintings h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
