@@ -357,15 +357,15 @@ footer {
   background-color: #45a049;
 }
 
-
-.social-icons {
-  height: 50px;
-  width: 50px;
-}
-
 .social-icons-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+}
+
+.social-icons-container img {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
 }
