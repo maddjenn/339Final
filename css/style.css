@@ -175,7 +175,7 @@ footer {
   left: 0;
   width: 100%;
   background-color: #fff;
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding: 10px;
   font-weight: bold;
@@ -211,7 +211,7 @@ footer {
 }
 
 .bordered {
-  border: 5px solid blue;
+  border: 5px solid #adcfe6;
 }
 
 .text {
