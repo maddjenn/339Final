@@ -296,27 +296,20 @@ footer {
   line-height: 1.5em;
   text-align: justify;
 }
-
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  border: 1px solid lightblue;
-  padding: 10px;
+  grid-gap: 20px;
 }
 
 .interest {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 1px solid lightblue;
+  border: 5px solid blue;
+  text-align: center;
 }
 
 .interest img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: auto;
 }
 
 /* Contact Me section */
