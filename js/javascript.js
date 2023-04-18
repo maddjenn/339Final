@@ -26,3 +26,18 @@ function animateText() {
 }
 
 animateText();
+
+// Get the button element
+const button = document.querySelector('#contact-button');
+
+// Add a click event listener to the button
+button.addEventListener('click', () => {
+  // Display a confirmation alert
+  const confirmed = confirm('Are you sure you want to submit this form?');
+  
+  // Check if the user confirmed
+  if (confirmed) {
+    // If the user confirmed, submit the form
+    document.querySelector('#contact-form').submit();
+  }
+});
