@@ -373,3 +373,10 @@ footer {
   align-items: center;
   margin-top: 20px;
 }
+
+.travel {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
