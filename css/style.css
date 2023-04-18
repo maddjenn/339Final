@@ -387,3 +387,17 @@ footer {
   font-size: 1.5em;
   text-align: center;
 }
+
+.favalbum {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.favgame {
+   margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
