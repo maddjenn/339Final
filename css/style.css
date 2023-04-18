@@ -381,3 +381,15 @@ footer {
   width: 30px;
   margin-right: 10px;
 }
+
+.social-icons {
+  height: 50px;
+  width: 50px;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
