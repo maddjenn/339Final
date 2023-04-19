@@ -1,4 +1,4 @@
-window.onload = function() {
+/* window.onload = function() {
   document.getElementById("header").innerHTML = '<object type="text/html" data="header.html" ></object>';
   document.getElementById("nav").innerHTML = '<object type="text/html" data="nav.html" ></object>';
   document.getElementById("footer").innerHTML = '<object type="text/html" data="footer.html" ></object>';
@@ -11,33 +11,9 @@ window.onload = function() {
       nav_links[i].classList.add("active");
     }
   }
-};
+}; --> */
 
-const welcomeText = document.getElementById("welcome-text");
-const text = "Welcome to my page";
-let index = 0;
-
-function animateText() {
-  if (index < text.length) {
-    welcomeText.innerHTML += text.charAt(index);
-    index++;
-    setTimeout(animateText, 100);
-  }
+function submitForm() {
+  const ans = confirm('Are you sure you want to submit this form?');
+  alert(ans ? "Sent!" : "All good bro bro");
 }
-
-animateText();
-
-// Get the button element
-const button = document.querySelector('#contact-button');
-
-// Add a click event listener to the button
-button.addEventListener('click', () => {
-  // Display a confirmation alert
-  const confirmed = confirm('Are you sure you want to submit this form?');
-  
-  // Check if the user confirmed
-  if (confirmed) {
-    // If the user confirmed, submit the form
-    document.querySelector('#contact-form').submit();
-  }
-});
