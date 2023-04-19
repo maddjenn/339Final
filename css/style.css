@@ -107,7 +107,7 @@ main {
 
 footer {
   background-color: #adcfe6;
-  color: #3a6abf;
+  color: #000;
   padding: 20px;
   text-align: center;
 }
@@ -563,7 +563,7 @@ input:focus {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #000;
   border: none;
   color: #fff;
   border-radius: 20px;
